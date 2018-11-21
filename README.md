@@ -119,7 +119,7 @@ install(FILES ${CMAKE_ARCHIVE_OUTPUT_DIRECTORY}/libFusionEKF.a DESTINATION lib)
 
 ---
 
-## [cmake-demo](cmake-demo)
+## [cmake-demo](https://github.com/wzpan/cmake-demo/tree/89110ffcc5989eb9ac53cb4fcb66fa31af914f50)
 
 =============================================================================================
 # Extended Kalman Filter Project
