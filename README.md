@@ -55,9 +55,11 @@ cmake_practice/
 │   └── tools.cpp
 └── tutorial
 ```
+
 <br>
 
 `CMakeLists.txt`
+
 ```cmake
 # declare the name of the project
 project(ExtendedKF)
@@ -111,8 +113,13 @@ install(FILES ${CMAKE_ARCHIVE_OUTPUT_DIRECTORY}/libFusionEKF.a DESTINATION lib)
 ```
 
 # Credits
+
 - [cmake tutorial](tutorial)
 - [ndrplz/self-driving-car/project_6_extended_kalman_filter](https://github.com/ndrplz/self-driving-car/tree/master/project_6_extended_kalman_filter)
+
+---
+
+## [cmake-demo](cmake-demo)
 
 =============================================================================================
 # Extended Kalman Filter Project
@@ -141,7 +148,7 @@ This code implements the extended Kalman filter in C++. We are providing simulat
 
 1. Clone this repo.
 2. Make a build directory: `mkdir build && cd build`
-3. Compile: `cmake .. && make` 
+3. Compile: `cmake .. && make`
    * On windows, you may need to run: `cmake .. -G "Unix Makefiles" && make`
 4. Run it: `./ExtendedKF path/to/input.txt path/to/output.txt`. You can find
    some sample inputs in 'data/'.
